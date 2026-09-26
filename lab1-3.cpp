@@ -7,7 +7,7 @@ using namespace std;
 struct data_t {
     void* values[SIZE];
     int types[SIZE];
-};
+};\\\
 
 void print_data(data_t* p) {
     cout << "a = " << *(long*)p->values[0] << endl;
